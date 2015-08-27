@@ -12,6 +12,7 @@
 #include "skin.h"
 #include "utils.h"
 #include "cutterbar.h"
+#include "laboutwidget.h"
 #include <QDir>
 #include <QMenu>
 #include <QMenuBar>
@@ -111,6 +112,7 @@ Player::Player(QWidget *parent) :
     menu->addAction(tr("Settings"), this, SLOT(onSetButton()));
     menu->addSeparator();
     menu->addAction(tr("Homepage"), this, SLOT(openHomepage()));
+    menu->addAction(tr("About"), this, SLOT(onAboutClicked()));
     ui->mainLayout->insertWidget(0, menubar);
 
     //Add time show
@@ -584,5 +586,12 @@ void Player::setSkin(const QString& skin_name)
     rightBorder->show();
     topLeftBorder->show();
     topRightBorder->show();
+}
+
+void Player::onAboutClicked()
+{
+    QPixmap *pixmap = new QPixmap(":/images/lplayer.png");
+    LAboutWidget *a = new LAboutWidget("LPlayer", "2.9", pixmap);
+    a->show();
 }
 

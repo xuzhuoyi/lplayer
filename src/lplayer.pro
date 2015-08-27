@@ -38,7 +38,8 @@ SOURCES += main.cpp\
     acfun.cpp \
     youget.cpp \
     detailitem.cpp \
-    detailpage.cpp
+    detailpage.cpp \
+    laboutwidget.cpp
 
 
 TRANSLATIONS += lplayer_zh_CN.ts
@@ -74,7 +75,8 @@ HEADERS  += player.h \
     acfun.h \
     youget.h \
     detailitem.h \
-    detailpage.h
+    detailpage.h \
+    laboutwidget.h
 
 
 FORMS    += \
@@ -97,7 +99,7 @@ unix {
     trans.files += lplayer_*.qm
     trans.path = /usr/share/lplayer
     #icon
-    icon.files += lplayer.png
+    icon.files += lplayer.svg
     icon.path = /usr/share/icons
     #bin
     execute.files += lplayer
@@ -118,3 +120,6 @@ unix: PKGCONFIG += python2
 
 win32: INCLUDEPATH += C:\\Python27\\include
 win32: LIBS += C:\\Python27\\libs\\python27.lib
+
+RESOURCES += \
+    rc.qrc

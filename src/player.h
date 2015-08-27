@@ -80,6 +80,7 @@ private slots:
     void onStopButton(void);
     void onSetButton(void);
     void onSaveVolume(int volume);
+    void onAboutClicked(void);
     void openHomepage(void);
 
     void hidePlaylist(void);
