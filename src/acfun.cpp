@@ -8,9 +8,11 @@
 #include <QUrl>
 #include <QLabel>
 
+
 Acfun::Acfun(QWidget *parent) :
     QWidget(parent)
 {
+    acfun = this;
     view = new QWebView(parent);
     m_pPushButtonPlay = new QPushButton(tr("Play"));
     m_pHBoxLayout = new QHBoxLayout;
@@ -46,6 +48,7 @@ Acfun::Acfun(QWidget *parent) :
 
 void Acfun::loadLink(const QUrl &url)
 {
+    m_pLabelStatus->setText(tr("Loading...\nClick the play button to resolve the address after entering the player page."));
     view->load(url);
 }
 
@@ -58,11 +61,12 @@ void Acfun::on_view_loadFinished(bool success)
 {
     if (success)
     {
-        m_pLabelStatus->setText(tr("Loaded successfully. You can click the play button to resolve the address in player pages.\nIf the page prompts error message, please click the reload."));
+        m_pLabelStatus->setText(tr("Click play button to resolve the address in player pages.\nIf the page prompts error message, please click the reload."));
 
     }
+}
 
-    else
-
-        m_pLabelStatus->setText(tr("Failed to load.\nPlease reload."));
+void Acfun::setStausText(QString str)
+{
+    m_pLabelStatus->setText(str);
 }

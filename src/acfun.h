@@ -16,6 +16,7 @@ class Acfun : public QWidget
     Q_OBJECT
 public:
     explicit Acfun(QWidget *parent = 0);
+    void setStausText(QString str);
 
 signals:
 
@@ -36,5 +37,5 @@ private:
     YouGet *m_pYouGet;
 
 };
-
+extern Acfun *acfun;
 #endif // ACFUN_H

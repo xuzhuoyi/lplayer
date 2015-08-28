@@ -18,6 +18,7 @@ DetailPage::DetailPage(QWidget *parent) :
 
 void DetailPage::displayItems()
 {
+    m_pListWidget->clear();
     QStringList input = sList;
     clipNum = (input.count()) / 9;
     for (qint32 i = 0; i < clipNum; i++)
