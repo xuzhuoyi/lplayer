@@ -34,6 +34,8 @@ private:
     QLabel *m_pLabelAbout;
     QVBoxLayout *m_pVBoxLayoutAbout;
     QLabel* m_pLabelIcon;
+
+    void __SetUi(QString name, QString version, QString info);
 };
 
 #endif // LABOUTWIDGET_H
