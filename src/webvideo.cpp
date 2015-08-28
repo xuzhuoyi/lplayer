@@ -242,4 +242,5 @@ void WebVideo::onYouGetParsingFinished(QStringList* stringList)
      addTab(m_pDetailPage, tr("Acfun Detail"));
      m_pDetailPage->setsList(*stringList);
      m_pDetailPage->displayItems();
+     setCurrentWidget(m_pDetailPage);
 }

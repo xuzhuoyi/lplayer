@@ -437,7 +437,7 @@ void Player::onSetButton()
 //open homepage
 void Player::openHomepage()
 {
-    static QUrl url("https://github.com/coslyk/lplayer");
+    static QUrl url("https://ldeteam.tk");
     QDesktopServices::openUrl(url);
 }
 
@@ -591,7 +591,7 @@ void Player::setSkin(const QString& skin_name)
 void Player::onAboutClicked()
 {
     QPixmap *pixmap = new QPixmap(":/images/lplayer.png");
-    LAboutWidget *a = new LAboutWidget("LPlayer", "2.9", pixmap);
+    LAboutWidget *a = new LAboutWidget("LPlayer", "2.9", pixmap, "Based on MoonPlayer V0.41");
     a->show();
 }
 
