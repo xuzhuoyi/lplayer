@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Moon Player</string>
+   <string>LPlayer</string>
   </property>
   <layout class="QVBoxLayout" name="mainLayout" stretch="0,1,0">
    <property name="spacing">

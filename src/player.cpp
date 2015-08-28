@@ -591,7 +591,7 @@ void Player::setSkin(const QString& skin_name)
 void Player::onAboutClicked()
 {
     QPixmap *pixmap = new QPixmap(":/images/lplayer.png");
-    LAboutWidget *a = new LAboutWidget("LPlayer", "2.9", pixmap, "Based on MoonPlayer V0.41");
+    LAboutWidget *a = new LAboutWidget("LPlayer", "2.9", pixmap, tr("Based on MoonPlayer V0.41"));
     a->show();
 }
 

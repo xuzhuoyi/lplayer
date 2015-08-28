@@ -29,7 +29,7 @@ Acfun::Acfun(QWidget *parent) :
 
     setLayout(m_pVBoxLayout);
 
-    view->load(QUrl("http://www.acfun.tv/"));
+    view->load(QUrl("http://www.acfun.tv"));
 
     connect(view, SIGNAL(linkClicked(QUrl)),this,SLOT(loadLink(QUrl)));
     connect(m_pPushButtonPlay, SIGNAL(clicked()), SLOT(on_pushButtonPlay_clicked()));
