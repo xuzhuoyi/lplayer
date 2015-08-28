@@ -31,6 +31,7 @@ private:
     QVBoxLayout *m_pVBoxLayout;
     QLabel *m_pLabelStatus;
     QPushButton *m_pPushButtonBack;
+    QPushButton *m_pPushButtonReload;
 
     YouGet *m_pYouGet;
 
