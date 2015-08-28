@@ -8,6 +8,7 @@
 #include <QUrl>
 #include <QLabel>
 
+Acfun *acfun = NULL;
 
 Acfun::Acfun(QWidget *parent) :
     QWidget(parent)

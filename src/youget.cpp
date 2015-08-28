@@ -46,6 +46,12 @@ void YouGet::on_process_finished()
     QString string(byteArray);
     QStringList strList = string.split('\n');
     qDebug() << strList;
+    if (strList.at(0) == "")
+    {
+        QMessageBox::warning(NULL, tr("Warning"), tr("Please click the play button on the player page."));
+        return;
+    }
+
     if (strList.at(0).contains("Youku"))
     {
         QMessageBox::warning(NULL, tr("Warning"), tr("This version does not support Youku source analysis, the function will be realized in the next version."));
