@@ -16,7 +16,7 @@ Acfun::Acfun(QWidget *parent) :
     m_pHBoxLayout = new QHBoxLayout;
     m_pVBoxLayout = new QVBoxLayout;
     m_pYouGet  = new YouGet;
-    m_pLabelStatus = new QLabel(tr("Loading..."));
+    m_pLabelStatus = new QLabel(tr("Loading...\nClick the play button to resolve the address after entering the player page."));
     m_pPushButtonBack = new QPushButton(tr("Back"));
     m_pPushButtonReload = new QPushButton(tr("Reload"));
 
@@ -41,6 +41,7 @@ Acfun::Acfun(QWidget *parent) :
     connect(m_pPushButtonReload, SIGNAL(clicked(bool)), view, SLOT(reload()));
 
     view->page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks);
+    m_pLabelStatus->setAlignment(Qt::AlignCenter);
 }
 
 void Acfun::loadLink(const QUrl &url)
@@ -56,7 +57,12 @@ void Acfun::on_pushButtonPlay_clicked()
 void Acfun::on_view_loadFinished(bool success)
 {
     if (success)
-        m_pLabelStatus->setText(tr("Loaded successfully. You can click the play button to resolve the address in player pages."));
+    {
+        m_pLabelStatus->setText(tr("Loaded successfully. You can click the play button to resolve the address in player pages.\nIf the page prompts error message, please click the reload."));
+
+    }
+
     else
-        m_pLabelStatus->setText(tr("Failed to load. You can click the play button to resolve the address in player pages."));
+
+        m_pLabelStatus->setText(tr("Failed to load.\nPlease reload."));
 }
