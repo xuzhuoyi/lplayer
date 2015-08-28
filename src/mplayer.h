@@ -67,6 +67,7 @@ private slots:
     void setChannelToRight(void);
     void setChannelToNormal(void);
     void loadSub(void);
+    void onFullScreenTriggered(void);
 
 private:
     QProcess* process; //mplayer process

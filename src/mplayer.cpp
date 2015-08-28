@@ -86,6 +86,7 @@ MPlayer::MPlayer(QWidget *parent) :
     menu->addSeparator();
     screenShotAction = menu->addAction(tr("Screenshot"), this, SLOT(screenShot()), QKeySequence("S"));
     //menu->addAction(tr("Load subtitles"), this, SLOT(loadSub())); //Unfinished function
+    menu->addAction(tr("Full Screen"), this, SLOT(onFullScreenTriggered()));
     setContextMenuPolicy(Qt::CustomContextMenu);
     connect(this, SIGNAL(customContextMenuRequested(const QPoint&)),
             this, SLOT(showMenu(const QPoint&)));
@@ -613,4 +614,9 @@ void MPlayer::speedSetToDefault()
         speed = 1;
         writeToMplayer("speed_set 1\n");
     }
+}
+
+void MPlayer::onFullScreenTriggered()
+{
+    emit fullScreen();
 }

@@ -2,63 +2,113 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh_CN" sourcelanguage="zh_CN">
 <context>
+    <name>Acfun</name>
+    <message>
+        <location filename="acfun.cpp" line="15"/>
+        <source>Play</source>
+        <translation>播放</translation>
+    </message>
+    <message>
+        <location filename="acfun.cpp" line="19"/>
+        <source>Loading...</source>
+        <translation>正在加载...</translation>
+    </message>
+    <message>
+        <location filename="acfun.cpp" line="20"/>
+        <source>Back</source>
+        <translation>返回</translation>
+    </message>
+    <message>
+        <location filename="acfun.cpp" line="56"/>
+        <source>Loading success. You can click the play button to resolve the address in player pages.</source>
+        <translation>加载成功。你可以在 Acfun 播放页面点击播放按钮解析地址。</translation>
+    </message>
+</context>
+<context>
     <name>CutterBar</name>
     <message>
         <location filename="cutterbar.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>时间</translation>
     </message>
     <message>
         <location filename="cutterbar.ui" line="29"/>
         <source>Start position:</source>
-        <translation type="unfinished">起始时间：</translation>
+        <translation>起始时间：</translation>
     </message>
     <message>
         <location filename="cutterbar.ui" line="43"/>
         <location filename="cutterbar.ui" line="71"/>
         <source>00:00:00</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="cutterbar.ui" line="50"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="cutterbar.ui" line="57"/>
         <source>End position:</source>
-        <translation type="unfinished">结束时间：</translation>
+        <translation>结束时间：</translation>
     </message>
     <message>
         <location filename="cutterbar.ui" line="78"/>
         <location filename="cutterbar.cpp" line="137"/>
         <source>OK</source>
-        <translation type="unfinished">确定</translation>
+        <translation>确定</translation>
     </message>
     <message>
         <location filename="cutterbar.cpp" line="83"/>
         <source>This function depends on mencoder, but mencoder is not installed in this computer.</source>
-        <translation type="unfinished">本功能需要mencoder支持，但您未安装mencoder。</translation>
+        <translation>本功能需要mencoder支持，但您未安装mencoder。</translation>
     </message>
     <message>
         <location filename="cutterbar.cpp" line="89"/>
         <source>Time position is not valid.</source>
-        <translation type="unfinished">无效的时间。</translation>
+        <translation>无效的时间。</translation>
     </message>
     <message>
         <location filename="cutterbar.cpp" line="93"/>
         <source>What do you want to do?</source>
-        <translation type="unfinished">您想做什么？</translation>
+        <translation>您想做什么？</translation>
     </message>
     <message>
         <location filename="cutterbar.cpp" line="94"/>
         <source>Cut</source>
-        <translation type="unfinished">剪切</translation>
+        <translation>剪切</translation>
     </message>
     <message>
         <location filename="cutterbar.cpp" line="95"/>
         <source>Losslessly cut</source>
-        <translation type="unfinished">无损剪切</translation>
+        <translation>无损剪切</translation>
+    </message>
+</context>
+<context>
+    <name>DetailItem</name>
+    <message>
+        <location filename="detailitem.ui" line="14"/>
+        <source>Form</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="detailitem.ui" line="20"/>
+        <location filename="detailitem.ui" line="30"/>
+        <location filename="detailitem.ui" line="40"/>
+        <location filename="detailitem.ui" line="50"/>
+        <location filename="detailitem.ui" line="60"/>
+        <source>TextLabel</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="detailitem.ui" line="76"/>
+        <source>Play</source>
+        <translation>播放</translation>
+    </message>
+    <message>
+        <location filename="detailitem.cpp" line="17"/>
+        <source>Real URLs:</source>
+        <translation>真实地址：</translation>
     </message>
 </context>
 <context>
@@ -66,12 +116,12 @@
     <message>
         <location filename="detailview.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="detailview.ui" line="60"/>
         <source>Director:</source>
-        <translation type="unfinished">导演：</translation>
+        <translation>导演：</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="67"/>
@@ -89,82 +139,82 @@
         <location filename="detailview.cpp" line="61"/>
         <location filename="detailview.cpp" line="83"/>
         <source>Unknown</source>
-        <translation type="unfinished">未知</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="74"/>
         <source>Scriptwriter:</source>
-        <translation type="unfinished">编剧：</translation>
+        <translation>编剧：</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="88"/>
         <source>Player:</source>
-        <translation type="unfinished">演员：</translation>
+        <translation>演员：</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="102"/>
         <source>Type:</source>
-        <translation type="unfinished">种类：</translation>
+        <translation>种类：</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="123"/>
         <source>Date:</source>
-        <translation type="unfinished">日期：</translation>
+        <translation>日期：</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="137"/>
         <source>Language:</source>
-        <translation type="unfinished">语言：</translation>
+        <translation>语言：</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="151"/>
         <source>Length:</source>
-        <translation type="unfinished">长度：</translation>
+        <translation>长度：</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="165"/>
         <source>Alternate name:</source>
-        <translation type="unfinished">别名：</translation>
+        <translation>别名：</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="116"/>
         <source>Nation:</source>
-        <translation type="unfinished">地区：</translation>
+        <translation>地区：</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="259"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="detailview.ui" line="24"/>
         <source>Summary</source>
-        <translation type="unfinished">简介</translation>
+        <translation>简介</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="182"/>
         <source>Summary:</source>
-        <translation type="unfinished">简介：</translation>
+        <translation>简介：</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="213"/>
         <source>Source</source>
-        <translation type="unfinished">播放源</translation>
+        <translation>播放源</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="235"/>
         <source>Play</source>
-        <translation type="unfinished">播放</translation>
+        <translation>播放</translation>
     </message>
     <message>
         <location filename="detailview.ui" line="242"/>
         <source>Download</source>
-        <translation type="unfinished">下载</translation>
+        <translation>下载</translation>
     </message>
     <message>
         <location filename="detailview.cpp" line="42"/>
         <source> - Detail page</source>
-        <translation type="unfinished"> - 详情页</translation>
+        <translation> - 详情页</translation>
     </message>
     <message>
         <source>Cannot find plugin which can parse this source.</source>
@@ -176,42 +226,42 @@
     <message>
         <location filename="downloader.cpp" line="33"/>
         <source>File name</source>
-        <translation type="unfinished">文件名</translation>
+        <translation>文件名</translation>
     </message>
     <message>
         <location filename="downloader.cpp" line="33"/>
         <source>State</source>
-        <translation type="unfinished">状态</translation>
+        <translation>状态</translation>
     </message>
     <message>
         <location filename="downloader.cpp" line="39"/>
         <source>Play</source>
-        <translation type="unfinished">播放</translation>
+        <translation>播放</translation>
     </message>
     <message>
         <location filename="downloader.cpp" line="40"/>
         <source>Delete</source>
-        <translation type="unfinished">删除</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <location filename="downloader.cpp" line="41"/>
         <source>Pause</source>
-        <translation type="unfinished">暂停</translation>
+        <translation>暂停</translation>
     </message>
     <message>
         <location filename="downloader.cpp" line="51"/>
         <source>Download Manager</source>
-        <translation type="unfinished">下载管理器</translation>
+        <translation>下载管理器</translation>
     </message>
     <message>
         <location filename="downloader.cpp" line="66"/>
         <source> is existed. Download again?</source>
-        <translation type="unfinished">已存在。重新下载吗？</translation>
+        <translation>已存在。重新下载吗？</translation>
     </message>
     <message>
         <location filename="downloader.cpp" line="181"/>
         <source>File is being downloaded. Still want to delete?</source>
-        <translation type="unfinished">文件正在下载，仍要删除吗？</translation>
+        <translation>文件正在下载，仍要删除吗？</translation>
     </message>
     <message>
         <source>File is downloading.</source>
@@ -219,57 +269,81 @@
     </message>
 </context>
 <context>
+    <name>LAboutWidget</name>
+    <message>
+        <location filename="laboutwidget.cpp" line="13"/>
+        <location filename="laboutwidget.cpp" line="22"/>
+        <source>About</source>
+        <translation>关于</translation>
+    </message>
+    <message>
+        <location filename="laboutwidget.cpp" line="42"/>
+        <source>Version</source>
+        <translation>版本</translation>
+    </message>
+    <message>
+        <location filename="laboutwidget.cpp" line="46"/>
+        <source>LDE Version</source>
+        <translation>LDE 版本</translation>
+    </message>
+    <message>
+        <location filename="laboutwidget.cpp" line="54"/>
+        <source>Compiled in</source>
+        <translation>编译于</translation>
+    </message>
+</context>
+<context>
     <name>MPlayer</name>
     <message>
         <location filename="mplayer.cpp" line="61"/>
         <source>Ratio</source>
-        <translation type="unfinished">宽高比</translation>
+        <translation>宽高比</translation>
     </message>
     <message>
         <location filename="mplayer.cpp" line="65"/>
         <location filename="mplayer.cpp" line="70"/>
         <source>Default</source>
-        <translation type="unfinished">默认</translation>
+        <translation>默认</translation>
     </message>
     <message>
         <location filename="mplayer.cpp" line="67"/>
         <source>Speed</source>
-        <translation type="unfinished">播放速度</translation>
+        <translation>播放速度</translation>
     </message>
     <message>
         <location filename="mplayer.cpp" line="68"/>
         <source>Speed up</source>
-        <translation type="unfinished">加速</translation>
+        <translation>加速</translation>
     </message>
     <message>
         <location filename="mplayer.cpp" line="69"/>
         <source>Speed down</source>
-        <translation type="unfinished">减速</translation>
+        <translation>减速</translation>
     </message>
     <message>
         <location filename="mplayer.cpp" line="72"/>
         <source>Channel</source>
-        <translation type="unfinished">声道</translation>
+        <translation>声道</translation>
     </message>
     <message>
         <location filename="mplayer.cpp" line="73"/>
         <source>Left</source>
-        <translation type="unfinished">左声道</translation>
+        <translation>左声道</translation>
     </message>
     <message>
         <location filename="mplayer.cpp" line="74"/>
         <source>Right</source>
-        <translation type="unfinished">右声道</translation>
+        <translation>右声道</translation>
     </message>
     <message>
         <location filename="mplayer.cpp" line="75"/>
         <source>Normal</source>
-        <translation type="unfinished">立体声</translation>
+        <translation>立体声</translation>
     </message>
     <message>
         <location filename="mplayer.cpp" line="87"/>
         <source>Screenshot</source>
-        <translation type="unfinished">截图</translation>
+        <translation>截图</translation>
     </message>
     <message>
         <source>Screenshot (Shortcut:s)</source>
@@ -331,64 +405,69 @@
         <translation type="obsolete">库</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="85"/>
+        <location filename="player.cpp" line="89"/>
         <source>Cut video</source>
         <translation type="unfinished">剪切视频</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="90"/>
+        <location filename="player.cpp" line="94"/>
         <source>Resources</source>
         <translation type="unfinished">影视资源</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="95"/>
+        <location filename="player.cpp" line="99"/>
         <source>Downloader</source>
         <translation type="unfinished">下载管理</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="105"/>
+        <location filename="player.cpp" line="109"/>
         <source>Player</source>
         <translation type="unfinished">播放器</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="106"/>
+        <location filename="player.cpp" line="110"/>
         <source>Online video</source>
         <oldsource>Search videos</oldsource>
         <translation type="unfinished">在线视频</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="107"/>
+        <location filename="player.cpp" line="111"/>
         <source>Transform video</source>
         <translation type="unfinished">视频转码</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="108"/>
+        <location filename="player.cpp" line="112"/>
         <source>Settings</source>
         <translation type="unfinished">设置</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="110"/>
+        <location filename="player.cpp" line="114"/>
         <source>Homepage</source>
         <translation type="unfinished">主页</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="171"/>
+        <location filename="player.cpp" line="115"/>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="player.cpp" line="176"/>
         <source>Some files are being downloaded. Do you still want to close?</source>
         <translation type="unfinished">一些文件正在下载中。确认关闭吗？</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="182"/>
+        <location filename="player.cpp" line="187"/>
         <source>Some files are being transformed. Do you still want to close?</source>
         <translation type="unfinished">一些视频正在转码。确认关闭吗？</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="379"/>
+        <location filename="player.cpp" line="384"/>
         <source>Only support cutting local videos!</source>
         <translation type="unfinished">只支持剪切本地视频！</translation>
     </message>
     <message>
-        <location filename="player.cpp" line="539"/>
-        <location filename="player.cpp" line="545"/>
+        <location filename="player.cpp" line="544"/>
+        <location filename="player.cpp" line="550"/>
         <source>Failed to read skin!</source>
         <translation type="unfinished">加载皮肤失败！</translation>
     </message>
@@ -663,227 +742,231 @@
         <translation type="unfinished">设置</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="27"/>
+        <location filename="settingsdialog.ui" line="30"/>
         <source>Player</source>
         <translation type="unfinished">播放器</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="36"/>
+        <location filename="settingsdialog.ui" line="39"/>
         <source>Resize window automatically</source>
         <translation type="unfinished">自动调整窗口大小</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="43"/>
+        <location filename="settingsdialog.ui" line="46"/>
         <source>Need screenshot filter (-vf-add screenshot)</source>
         <translation type="unfinished">需要screenshot滤镜(-vf-add screenshot)</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="46"/>
+        <location filename="settingsdialog.ui" line="49"/>
         <source>Enable screenshot</source>
         <translation type="unfinished">启用截图</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="63"/>
+        <location filename="settingsdialog.ui" line="66"/>
         <source>Skin</source>
         <translation type="unfinished">皮肤</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="56"/>
+        <location filename="settingsdialog.ui" line="59"/>
         <source>Remember unfinished clips</source>
         <translation type="unfinished">记住未播放完的片段</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="71"/>
+        <location filename="settingsdialog.ui" line="74"/>
         <source>Video</source>
         <translation type="unfinished">视频</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="79"/>
+        <location filename="settingsdialog.ui" line="82"/>
         <source>Video Output</source>
         <translation type="unfinished">视频输出</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="87"/>
+        <location filename="settingsdialog.ui" line="90"/>
         <source>xv</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="92"/>
+        <location filename="settingsdialog.ui" line="95"/>
         <source>vdpau</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="97"/>
+        <location filename="settingsdialog.ui" line="100"/>
         <source>vaapi</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="102"/>
+        <location filename="settingsdialog.ui" line="105"/>
         <source>directx</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="107"/>
+        <location filename="settingsdialog.ui" line="110"/>
         <source>direct3d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="112"/>
+        <location filename="settingsdialog.ui" line="115"/>
         <source>gl</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="117"/>
+        <location filename="settingsdialog.ui" line="120"/>
         <source>x11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="131"/>
+        <location filename="settingsdialog.ui" line="134"/>
         <source>The default output in Linux. Cannot be used in Windows.</source>
         <translation type="unfinished">Linux默认视频输出。Windows下不可用。</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="145"/>
+        <location filename="settingsdialog.ui" line="148"/>
         <source>Nvidia hardware decoding in Linux.</source>
         <translation type="unfinished">Linux 下的Nvidia显卡硬件解码。</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="152"/>
+        <location filename="settingsdialog.ui" line="155"/>
         <source>Enable ffodivxvdpau</source>
         <translation type="unfinished">启用ffodivxvdpau</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="163"/>
+        <location filename="settingsdialog.ui" line="166"/>
         <source>Enable Intel/Ati hardware decoding in Linux. Cannot be used in Windows.</source>
         <translation type="unfinished">Linux下Intel/Ati硬件加速。Windows下不可用。</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="177"/>
+        <location filename="settingsdialog.ui" line="180"/>
         <source>Default output in Windows. Cannot be used in Linux.</source>
         <translation type="unfinished">Windows默认视频输出。Linux下不可用。</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="191"/>
+        <location filename="settingsdialog.ui" line="194"/>
         <source>Default output in Windows Vista and Windows 7. Cannot be used in Linux and Windows XP.</source>
         <translation type="unfinished">Windows vista和Win7默认视频输出。Linux和WinXP下不可用。</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="205"/>
+        <location filename="settingsdialog.ui" line="208"/>
         <source>OpenGL Output in Linux. You can try it if xv does not work.</source>
         <translation type="unfinished">Linux下的OpenGL视频输出。如果xv无法正常工作，您可以尝试。</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="219"/>
+        <location filename="settingsdialog.ui" line="222"/>
         <source>Output in Linux. You can try it if xv does not work.</source>
         <translation type="unfinished">Linux下的视频输出。如果xv无法正常工作，您可以尝试。</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="233"/>
+        <location filename="settingsdialog.ui" line="236"/>
         <source>Double buffer</source>
         <translation type="unfinished">双缓冲</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="240"/>
+        <location filename="settingsdialog.ui" line="243"/>
         <source>Allow framedrop</source>
         <translation type="unfinished">允许丢帧</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="247"/>
+        <location filename="settingsdialog.ui" line="250"/>
         <source>Try fixing &quot;stop at last frame&quot; problem</source>
         <translation type="unfinished">尝试修复“卡在最后一帧”问题</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="255"/>
+        <location filename="settingsdialog.ui" line="258"/>
         <source>Audio</source>
         <translation type="unfinished">音频</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="261"/>
+        <location filename="settingsdialog.ui" line="264"/>
         <source>Audio Output:</source>
         <translation type="unfinished">音频输出：</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="269"/>
+        <location filename="settingsdialog.ui" line="272"/>
         <source>auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="277"/>
+        <location filename="settingsdialog.ui" line="280"/>
         <source>Use software sound mixer</source>
         <translation type="unfinished">使用软件混音</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="285"/>
+        <location filename="settingsdialog.ui" line="288"/>
         <source>Internet</source>
         <translation type="unfinished">网络</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="293"/>
+        <location filename="settingsdialog.ui" line="296"/>
         <source>Http proxy</source>
         <translation type="unfinished">Http代理</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="303"/>
+        <location filename="settingsdialog.ui" line="306"/>
         <source>Port</source>
         <translation type="unfinished">端口</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="402"/>
+        <location filename="settingsdialog.ui" line="405"/>
         <source>Plugins</source>
         <translation type="unfinished">插件</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="408"/>
+        <location filename="settingsdialog.ui" line="411"/>
         <source>Video quality:</source>
         <translation type="unfinished">视频质量：</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="415"/>
+        <location filename="settingsdialog.ui" line="418"/>
         <source>Normal</source>
         <translation type="unfinished">标清</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="422"/>
+        <location filename="settingsdialog.ui" line="425"/>
         <source>High</source>
         <translation type="unfinished">高清</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="429"/>
+        <location filename="settingsdialog.ui" line="432"/>
         <source>Super</source>
         <translation type="unfinished">超清</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="436"/>
+        <location filename="settingsdialog.ui" line="439"/>
         <source>Combine video clips automatically after downloading</source>
         <translation type="unfinished">下载后自动合并分段视频</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="456"/>
+        <location filename="settingsdialog.ui" line="459"/>
         <source>View installed plugins</source>
         <translation type="unfinished">查看已安装插件</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="463"/>
-        <source>Close window after playing</source>
-        <translation type="unfinished">播放后自动关闭“在线视频”窗口</translation>
+        <location filename="settingsdialog.ui" line="466"/>
+        <source>Close &quot;Online videos&quot; window after playing</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="340"/>
+        <source>Close window after playing</source>
+        <translation type="obsolete">播放后自动关闭“在线视频”窗口</translation>
+    </message>
+    <message>
+        <location filename="settingsdialog.ui" line="343"/>
         <source>Max tasks</source>
         <translation type="unfinished">最大任务数</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="354"/>
+        <location filename="settingsdialog.ui" line="357"/>
         <source>Save to:</source>
         <translation type="unfinished">保存至：</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="364"/>
+        <location filename="settingsdialog.ui" line="367"/>
         <source>Cache(KB):</source>
         <translation type="unfinished">缓冲大小(KB):</translation>
     </message>
     <message>
-        <location filename="settingsdialog.ui" line="371"/>
+        <location filename="settingsdialog.ui" line="374"/>
         <source>Cache min:</source>
         <translation type="unfinished">缓冲百分比:</translation>
     </message>
@@ -894,7 +977,8 @@
     </message>
     <message>
         <location filename="settingsdialog.cpp" line="259"/>
-        <source>and place file &quot;ffmpeg&quot; into ~/.moonplayer/</source>
+        <source>and place file &quot;ffmpeg&quot; into ~/.lplayer/</source>
+        <oldsource>and place file &quot;ffmpeg&quot; into ~/.moonplayer/</oldsource>
         <translation type="unfinished">并将文件&quot;ffmpeg&quot;放入~/.moonplayer/</translation>
     </message>
 </context>
@@ -1111,27 +1195,37 @@
 <context>
     <name>WebVideo</name>
     <message>
-        <location filename="webvideo.cpp" line="39"/>
+        <location filename="webvideo.cpp" line="33"/>
+        <source>Acfun</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="webvideo.cpp" line="45"/>
         <source>Play</source>
         <translation type="unfinished">播放</translation>
     </message>
     <message>
-        <location filename="webvideo.cpp" line="41"/>
+        <location filename="webvideo.cpp" line="47"/>
         <source>Search</source>
         <translation type="unfinished">搜索</translation>
     </message>
     <message>
-        <location filename="webvideo.cpp" line="43"/>
+        <location filename="webvideo.cpp" line="49"/>
         <source>Prev</source>
         <translation type="unfinished">上页</translation>
     </message>
     <message>
-        <location filename="webvideo.cpp" line="44"/>
+        <location filename="webvideo.cpp" line="50"/>
         <source>Next</source>
         <translation type="unfinished">下页</translation>
     </message>
     <message>
-        <location filename="webvideo.cpp" line="40"/>
+        <location filename="webvideo.cpp" line="242"/>
+        <source>Acfun Detail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="webvideo.cpp" line="46"/>
         <source>Down</source>
         <translation type="unfinished">下载</translation>
     </message>
@@ -1156,7 +1250,7 @@
         <translation type="obsolete">不能下载文件：</translation>
     </message>
     <message>
-        <location filename="webvideo.cpp" line="88"/>
+        <location filename="webvideo.cpp" line="94"/>
         <source>Another file is parsing. Please wait.</source>
         <translation type="unfinished">其他任务正在进行中，请稍后。</translation>
     </message>
@@ -1181,7 +1275,7 @@
         <translation type="obsolete">库</translation>
     </message>
     <message>
-        <location filename="webvideo.cpp" line="34"/>
+        <location filename="webvideo.cpp" line="40"/>
         <source>You have not install any plugins yet ~_~</source>
         <translation type="unfinished">您没有安装任何插件哦~_~</translation>
     </message>
@@ -1194,8 +1288,8 @@
         <translation type="obsolete">返回</translation>
     </message>
     <message>
-        <location filename="webvideo.cpp" line="35"/>
-        <location filename="webvideo.cpp" line="49"/>
+        <location filename="webvideo.cpp" line="41"/>
+        <location filename="webvideo.cpp" line="55"/>
         <source>Web videos</source>
         <translation type="unfinished">在线视频</translation>
     </message>
