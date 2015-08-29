@@ -35,4 +35,11 @@ add_executable(lplayer main.cpp player.cpp mplayer.cpp playlist.cpp webvideo.cpp
 
 # Use the Widgets module from Qt 5.
 target_link_libraries(lplayer Qt5::Widgets Qt5::Network Qt5::Xml Qt5::WebKitWidgets Qt5::DBus ${PYTHON_LIBRARIES})
+
+INSTALL(DIRECTORY skins DESTINATION /usr/share/lplayer)
+INSTALL(FILES lplayer_zh_CN.qm DESTINATION /usr/share/lplayer)
+INSTALL(FILES images/lplayer.png DESTINATION /usr/share/Icons)
+INSTALL(TARGETS lplayer RUNTIME DESTINATION /usr/bin)
+INSTALL(DIRECTORY plugins DESTINATION /usr/share/lplayer)
+INSTALL(FILES lplayer.desktop DESTINATION /usr/share/application)
                            

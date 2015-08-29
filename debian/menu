@@ -1,0 +1,5 @@
+?package(lplayer): needs="X11" \
+	section="Applications/Video" \
+	title="LPlayer" \
+	longtitle="LPlayer - The mplayer based media player" \
+	command="/usr/bin/lplayer"
