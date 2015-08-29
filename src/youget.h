@@ -15,6 +15,7 @@ public:
     void getRealUrl(QString url);
 public slots:
     void on_process_finished();
+    void on_process_failed();
 signals:
     void parsingFinished(QStringList*);
 private:

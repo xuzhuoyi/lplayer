@@ -17,6 +17,7 @@ void YouGet::getRealUrl(QString url)
 {
     m_pProcess = new QProcess;
     connect(m_pProcess, SIGNAL(finished(int)), this, SLOT(on_process_finished()));
+    connect(m_pProcess, SIGNAL(error(QProcess::ProcessError)), this, SLOT(on_process_failed()));
     m_pProcess->start("you-get -u " + url);
     acfun->setStausText(tr("Parsing..."));
 }
@@ -60,4 +61,9 @@ void YouGet::on_process_finished()
 
     emit parsingFinished(&strList);
 
+}
+
+void YouGet::on_process_failed()
+{
+    QMessageBox::warning(NULL, tr("Warning"), tr("Parsed unsuccessfully, please retry."));
 }
