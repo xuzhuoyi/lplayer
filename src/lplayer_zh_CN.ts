@@ -4,24 +4,40 @@
 <context>
     <name>Acfun</name>
     <message>
-        <location filename="acfun.cpp" line="15"/>
+        <location filename="acfun.cpp" line="18"/>
         <source>Play</source>
         <translation>播放</translation>
     </message>
     <message>
-        <location filename="acfun.cpp" line="19"/>
-        <source>Loading...</source>
-        <translation>正在加载...</translation>
+        <location filename="acfun.cpp" line="22"/>
+        <location filename="acfun.cpp" line="52"/>
+        <source>Loading...
+Click the play button to resolve the address after entering the player page.</source>
+        <translation>正在载入...\n在进入播放页后可点击播放解析地址。</translation>
     </message>
     <message>
-        <location filename="acfun.cpp" line="20"/>
+        <location filename="acfun.cpp" line="24"/>
+        <source>Reload</source>
+        <translation>刷新</translation>
+    </message>
+    <message>
+        <location filename="acfun.cpp" line="65"/>
+        <source>Click play button to resolve the address in player pages.
+If the page prompts error message, please click the reload.</source>
+        <translation>您可在播放页点击播放按钮解析地址。\n如果页面提示错误，请刷新几次即可。</translation>
+    </message>
+    <message>
+        <source>Loading...</source>
+        <translation type="vanished">正在加载...</translation>
+    </message>
+    <message>
+        <location filename="acfun.cpp" line="23"/>
         <source>Back</source>
         <translation>返回</translation>
     </message>
     <message>
-        <location filename="acfun.cpp" line="56"/>
         <source>Loading success. You can click the play button to resolve the address in player pages.</source>
-        <translation>加载成功。你可以在 Acfun 播放页面点击播放按钮解析地址。</translation>
+        <translation type="vanished">加载成功。你可以在 Acfun 播放页面点击播放按钮解析地址。</translation>
     </message>
 </context>
 <context>
@@ -359,17 +375,18 @@
     <name>Player</name>
     <message>
         <location filename="player.ui" line="14"/>
+        <location filename="player.ui" line="53"/>
         <source>LPlayer</source>
         <oldsource>Moon Player</oldsource>
         <translation></translation>
     </message>
     <message>
-        <location filename="player.ui" line="66"/>
+        <location filename="player.ui" line="73"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;More...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>更多</translation>
     </message>
     <message>
-        <location filename="player.ui" line="179"/>
+        <location filename="player.ui" line="189"/>
         <source>Online videos</source>
         <translation>在线视频</translation>
     </message>
@@ -1310,6 +1327,41 @@
     <message>
         <source>Play online?</source>
         <translation type="obsolete">在线播放吗？</translation>
+    </message>
+</context>
+<context>
+    <name>YouGet</name>
+    <message>
+        <location filename="youget.cpp" line="22"/>
+        <source>Parsing...</source>
+        <translation>正在解析...</translation>
+    </message>
+    <message>
+        <location filename="youget.cpp" line="27"/>
+        <source>Parsed</source>
+        <translation>已解析</translation>
+    </message>
+    <message>
+        <location filename="youget.cpp" line="52"/>
+        <location filename="youget.cpp" line="58"/>
+        <location filename="youget.cpp" line="68"/>
+        <source>Warning</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <location filename="youget.cpp" line="52"/>
+        <source>Please click the play button on the player page.</source>
+        <translation>请进入播放页面后再点击播放按钮。</translation>
+    </message>
+    <message>
+        <location filename="youget.cpp" line="58"/>
+        <source>This version does not support Youku source analysis, the function will be realized in the next version.</source>
+        <translation>本版本暂时不支持解析 Youku 源视频，该功能将在下一个版本中实现。</translation>
+    </message>
+    <message>
+        <location filename="youget.cpp" line="68"/>
+        <source>Parsed unsuccessfully, please retry.</source>
+        <translation>解释失败，请再试一次。</translation>
     </message>
 </context>
 </TS>

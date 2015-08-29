@@ -48,6 +48,13 @@
        <number>2</number>
       </property>
       <item>
+       <widget class="QLabel" name="titleLabel">
+        <property name="text">
+         <string>LPlayer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <spacer name="horizontalSpacer_3">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
@@ -119,6 +126,9 @@
       </item>
       <item>
        <layout class="QHBoxLayout" name="controlLayout">
+        <property name="spacing">
+         <number>10</number>
+        </property>
         <item>
          <spacer name="horizontalSpacer">
           <property name="orientation">

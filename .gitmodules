@@ -1,0 +1,3 @@
+[submodule "thrid-party/you-get"]
+	path = thrid-party/you-get
+	url = https://github.com/soimort/you-get.git
