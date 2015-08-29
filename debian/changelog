@@ -1,5 +1,5 @@
 lplayer (2.9.0) vivid; urgency=low
 
-    *First
+  * Fix Name Problem (Closes: #16)
 
  -- Zhuoyi Xu (LDE Team) <xzy476386434@vip.qq.com>  Sat, 29 Aug 2015 21:34:00 +0800
