@@ -11,4 +11,8 @@ MESSAGE(STATUS "Project: lplayer")
 MESSAGE(STATUS "Project Directory: ${PROJECT_SOURCE_DIR}")
                     
 
-ADD_SUBDIRECTORY(src)                              
+ADD_SUBDIRECTORY(src)
+
+INSTALL(DIRECTORY third-party/you-get DESTINATION /usr/share/lplayer)
+
+                           
