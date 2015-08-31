@@ -1,13 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: baka-mplayer
-Source: https://github.com/u8sand/Baka-MPlayer
+Upstream-Name: lplayer
+Source: https://github.com/xuzhuoyi/lplayer
 
 Files: *
-Copyright: 2012-2015 godly-devotion (azian.otaku@live.com) and u8sand (u8sand@gmail.com)
-License: GPL-2.0+
-
-Files: debian/*
-Copyright: 2015 Joshua Park (godly-devotion) <azian.otaku@live.com>
+Copyright: 2015 Zhuoyi Xu <LDE Team> (xzy476386434@vip.qq.com)
 License: GPL-2.0+
 
 License: GPL-2.0+

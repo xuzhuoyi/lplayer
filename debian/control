@@ -9,5 +9,5 @@ Homepage: http://ldeteam.tk
 Package: lplayer
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5network5, libqt5xml5, libqt5webkit5, libqt5dbus5, python, mplayer
-Description: LPlayer - The mplayer based media player
+Description: The mplayer based media player
  Free and open source, cross-platform, mplayer based multimedia player. Qt 5.
