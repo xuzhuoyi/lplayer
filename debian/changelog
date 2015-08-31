@@ -1,3 +1,9 @@
+lplayer (2.9.0-1) vivid; urgency=low
+
+  * Fix Lintian Problem (Closes: #19)
+
+ -- Zhuoyi Xu (LDE Team) <xzy476386434@vip.qq.com>  Tue, 1 Sep 2015 00:44:12 +0800
+
 lplayer (2.9.0) vivid; urgency=low
 
   * Fix Name Problem (Closes: #16)

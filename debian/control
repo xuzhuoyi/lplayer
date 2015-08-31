@@ -2,7 +2,7 @@ Source: lplayer
 Section: video
 Priority: optional
 Maintainer: Zhuoyi Xu (LDE Team) <xzy476386434@vip.qq.com>
-Build-Depends: debhelper (>=9), pkg-config, qtbase5-dev, qt5-qmake, libqt5network5, python-dev, libqt5xml5, libqt5webkit5-dev, libqt5dbus5
+Build-Depends: debhelper (>=9), pkg-config, qtbase5-dev, qt5-qmake, libqt5network5, python-dev, libqt5xml5, libqt5webkit5-dev, libqt5dbus5, cmake
 Standards-Version: 3.9.5
 Homepage: http://ldeteam.tk
 
