@@ -41,5 +41,5 @@ INSTALL(FILES lplayer_zh_CN.qm DESTINATION /usr/share/lplayer)
 INSTALL(FILES images/lplayer.png DESTINATION /usr/share/Icons)
 INSTALL(TARGETS lplayer RUNTIME DESTINATION /usr/bin)
 INSTALL(DIRECTORY plugins DESTINATION /usr/share/lplayer)
-INSTALL(FILES lplayer.desktop DESTINATION /usr/share/application)
+INSTALL(FILES lplayer.desktop DESTINATION /usr/share/applications)
                            
