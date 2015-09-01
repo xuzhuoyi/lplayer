@@ -26,6 +26,10 @@ cmake . && make
 make DESTDIR=$RPM_BUILD_ROOT install
 
 
+%define __os_install_post %{!?nil}
+
+
+
 %files
 %doc
 %{_bindir}/*
